@@ -1,4 +1,4 @@
-# 🔗 CertifyChain – Decentralized Product Authentication System
+#  CertifyChain – Decentralized Product Authentication System
 
 CertifyChain is a blockchain-based decentralized application (DApp) that helps detect counterfeit products using smart contracts and QR-based tracking.
 
@@ -43,21 +43,14 @@ Each transaction is recorded on-chain using Solidity smart contracts.
 
 1. Clone the repository
    
--git clone https://github.com/riyakumbhare9-boop/Certifychain.git
-
--cd Certifychain
-
-
-
+   -git clone https://github.com/riyakumbhare9-boop/Certifychain.git
+   -cd Certifychain
 
 2. Install dependencies
+   
+   npm install
 
-npm install
-
-
-
-
- 3️. Start Ganache
+3️. Start Ganache
 
 - Open Ganache
 - Ensure RPC URL is:
@@ -98,7 +91,5 @@ Make sure:
 - Wallet-based identity filtering
 
 
-
-## 📄 License
 
 This project is for educational and demonstration purposes.
