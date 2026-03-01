@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Seller - CertifyChain</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid px-md-5">
+	      <a class="navbar-brand" href="index.html">
+	        <i class="fas fa-shield-alt"></i> CertifyChain
+	        <span>Blockchain Verification</span>
+	      </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ms-auto">
+	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        	
+        	<!-- 👨‍🏭 MANUFACTURER DROPDOWN -->
+        	<li class="nav-item dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="manufacturerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        			<i class="fas fa-industry"></i> Manufacturer
+        		</a>
+        		<ul class="dropdown-menu" aria-labelledby="manufacturerDropdown">
+        			<li><a class="dropdown-item" href="addProduct.html"><i class="fas fa-plus-circle"></i> Add Product</a></li>
+        			<li><a class="dropdown-item" href="sellProductManufacturer.html"><i class="fas fa-handshake"></i> Sell Product to Seller</a></li>
+        			<li><a class="dropdown-item" href="querySeller.html"><i class="fas fa-list"></i> Your Registered Sellers</a></li>
+        			<li><hr class="dropdown-divider"></li>
+        			<li><a class="dropdown-item" href="verifyProducts.html"><i class="fas fa-check-circle"></i> Verify Products</a></li>
+        		</ul>
+        	</li>
+        	
+        	<!-- 🏪 SELLER DROPDOWN -->
+        	<li class="nav-item dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="sellerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        			<i class="fas fa-store"></i> Seller
+        		</a>
+        		<ul class="dropdown-menu" aria-labelledby="sellerDropdown">
+        			<li><a class="dropdown-item" href="addSeller.html"><i class="fas fa-user-plus"></i> Register as Seller</a></li>
+        			<li><a class="dropdown-item" href="queryProducts.html"><i class="fas fa-box"></i> Your Products for Sale</a></li>
+        			<li><a class="dropdown-item" href="sellProductSeller.html"><i class="fas fa-shopping-cart"></i> Sell Product to Consumer</a></li>
+        			<li><hr class="dropdown-divider"></li>
+        			<li><a class="dropdown-item" href="consumerPurchaseHistory.html"><i class="fas fa-history"></i> Purchase History</a></li>
+        		</ul>
+        	</li>
+        	
+        	<!-- 👤 CONSUMER DROPDOWN -->
+        	<li class="nav-item dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="consumerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        			<i class="fas fa-user-circle"></i> Consumer
+        		</a>
+        		<ul class="dropdown-menu" aria-labelledby="consumerDropdown">
+        			<li><a class="dropdown-item" href="verifyProducts.html"><i class="fas fa-check-circle"></i> Verify Product</a></li>
+        			<li><a class="dropdown-item" href="consumer.html"><i class="fas fa-history"></i> Purchase History</a></li>
+        		</ul>
+        	</li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	<!-- Hero Section -->
+	<section class="hero-section">
+		<div class="container-fluid px-md-5">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
+					<h1><i class="fas fa-store"></i> Seller Dashboard</h1>
+					<p>Manage your inventory, sell products to consumers, and maintain supply chain integrity</p>
+				</div>
+				<div class="col-lg-4 text-center">
+					<div style="font-size: 4rem; color: rgba(255,255,255,0.3);">
+						<i class="fas fa-shopping-bag"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Operations Section -->
+	<section class="ftco-section">
+		<div class="container-fluid px-md-5">
+			<h2 class="text-center mb-5">Operations</h2>
+			<div class="row">
+				<div class="col-lg-6 mb-4">
+					<div class="card animate-fade-in-up">
+						<div class="card-header">
+							<i class="fas fa-cart-plus"></i> Sell to Consumer
+						</div>
+						<div class="card-body">
+							<p>Transfer products from your inventory to customers</p>
+							<a href="sellProductSeller.html" class="btn btn-primary btn-sm">Go to Sell</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<div class="card animate-fade-in-up" style="animation-delay: 0.1s;">
+						<div class="card-header">
+							<i class="fas fa-list"></i> View Products
+						</div>
+						<div class="card-body">
+							<p>Browse available products in your inventory</p>
+							<a href="queryProducts.html" class="btn btn-primary btn-sm">View Inventory</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white py-5" style="margin-top: 3rem;">
+	    <div class="container-fluid px-md-5">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h5>CertifyChain</h5>
+	                <p>Securing product authenticity through blockchain technology</p>
+	            </div>
+	            <div class="col-md-6 text-md-end">
+	                <p>&copy; Fake Product Identification System. All rights reserved.</p>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="js/sellerApp.js"></script>
+	</body>
+</html>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/sellerDataApp.js"></script>
+  </body>
+</html>
+
+
+
+
