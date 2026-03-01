@@ -54,15 +54,17 @@ Each transaction is recorded on-chain using Solidity smart contracts.
 3. Start Ganache
    
    -Open Ganache
+   
    -Ensure RPC URL is:
    http://127.0.0.1:7545
+   
    -Note the Chain ID
 
-4. Deploy Smart Contracts
+5. Deploy Smart Contracts
    
    -truffle migrate --reset
    
-5. Run the DApp
+6. Run the DApp
    
    -Open the frontend in browser (usually from `src/index.html`).
 
