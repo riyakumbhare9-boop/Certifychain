@@ -49,7 +49,6 @@ Each transaction is recorded on-chain using Solidity smart contracts.
 2. Install dependencies
    
    npm install
-
 3️. Start Ganache
 
 - Open Ganache
@@ -58,7 +57,6 @@ Each transaction is recorded on-chain using Solidity smart contracts.
   http://127.0.0.1:7545
 
 - Note the Chain ID
-
 4️. Deploy Smart Contracts
 
 truffle migrate --reset
