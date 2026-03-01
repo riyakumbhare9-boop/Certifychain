@@ -42,17 +42,16 @@ Each transaction is recorded on-chain using Solidity smart contracts.
 # Installation & Setup
 
 1. Clone the repository
+   
+-git clone https://github.com/riyakumbhare9-boop/Certifychain.git
 
-bash
-git clone https://github.com/riyakumbhare9-boop/Certifychain.git
-cd Certifychain
+-cd Certifychain
 
 
 
 
 2. Install dependencies
 
-bash
 npm install
 
 
@@ -69,7 +68,6 @@ npm install
 
 4️. Deploy Smart Contracts
 
-bash
 truffle migrate --reset
 
 5️. Run the DApp
