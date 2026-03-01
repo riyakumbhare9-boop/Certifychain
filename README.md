@@ -4,84 +4,75 @@ CertifyChain is a blockchain-based decentralized application (DApp) that helps d
 
 It enables transparent product lifecycle tracking from Manufacturer → Seller → Consumer using Ethereum blockchain.
 
----
+# Features
 
-## 🚀 Features
+-  Manufacturer can register products
+-  QR code generation for product verification
+-  Manufacturer can sell products to sellers
+-  Sellers can sell products to consumers
+-  Consumers can verify product authenticity
+-  Blockchain-based immutable transaction history
+-  MetaMask wallet integration
+-  Ganache local blockchain support
 
-- ✅ Manufacturer can register products
-- ✅ QR code generation for product verification
-- ✅ Manufacturer can sell products to sellers
-- ✅ Sellers can sell products to consumers
-- ✅ Consumers can verify product authenticity
-- ✅ Blockchain-based immutable transaction history
-- ✅ MetaMask wallet integration
-- ✅ Ganache local blockchain support
 
----
-
-## 🏗 System Architecture
+# System Architecture
 
 Roles in the system:
 
-- 🏭 Manufacturer  
-- 🏪 Seller  
-- 👤 Consumer  
+-  Manufacturer  
+-  Seller  
+-  Consumer  
 
 Each transaction is recorded on-chain using Solidity smart contracts.
 
----
 
-## 🛠 Tech Stack
+# Tech Stack
 
-- **Solidity** – Smart Contracts  
-- **Truffle** – Smart Contract Deployment  
-- **Ganache** – Local Ethereum Blockchain  
-- **Web3.js** – Blockchain Interaction  
-- **MetaMask** – Wallet Integration  
-- **HTML, CSS, Bootstrap** – Frontend  
-- **JavaScript** – DApp Logic  
+- Solidity – Smart Contracts  
+- Truffle– Smart Contract Deployment  
+- Ganache – Local Ethereum Blockchain  
+- Web3.js – Blockchain Interaction  
+- MetaMask – Wallet Integration  
+- HTML, CSS, Bootstrap – Frontend  
+- JavaScript – DApp Logic  
 
----
 
-## 📦 Installation & Setup
 
-### 1️⃣ Clone the repository
+# Installation & Setup
 
-```bash
+1. Clone the repository
+
+bash
 git clone https://github.com/riyakumbhare9-boop/Certifychain.git
 cd Certifychain
-```
 
----
 
-### 2️⃣ Install dependencies
 
-```bash
+
+2. Install dependencies
+
+bash
 npm install
-```
 
----
 
-### 3️⃣ Start Ganache
+
+
+ 3️. Start Ganache
 
 - Open Ganache
 - Ensure RPC URL is:
-  ```
+  
   http://127.0.0.1:7545
-  ```
+
 - Note the Chain ID
 
----
+4️. Deploy Smart Contracts
 
-### 4️⃣ Deploy Smart Contracts
-
-```bash
+bash
 truffle migrate --reset
-```
 
----
-
-### 5️⃣ Run the DApp
+5️. Run the DApp
 
 Open the frontend in browser (usually from `src/index.html`).
 
@@ -91,9 +82,7 @@ Make sure:
 - MetaMask is connected to Ganache network
 - Correct account is selected
 
----
-
-## 🔐 How It Works
+# How It Works
 
 1. Manufacturer adds product details.
 2. QR code is generated for the product.
@@ -102,9 +91,7 @@ Make sure:
 5. Consumer verifies product authenticity.
 6. All transactions are stored permanently on blockchain.
 
----
-
-## 📸 Future Improvements
+# Future Improvements
 
 - Role-based dashboard
 - UI redesign with modern framework
@@ -112,7 +99,6 @@ Make sure:
 - Event logging with transaction hash display
 - Wallet-based identity filtering
 
----
 
 
 ## 📄 License
