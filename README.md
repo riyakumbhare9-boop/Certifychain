@@ -57,12 +57,12 @@ Each transaction is recorded on-chain using Solidity smart contracts.
 - Ensure RPC URL is:
   http://127.0.0.1:7545
 - Note the Chain ID
-  
-4️. Deploy Smart Contracts
+
+4. Deploy Smart Contracts
 
 truffle migrate --reset
 
-5️. Run the DApp
+5. Run the DApp
 
 Open the frontend in browser (usually from `src/index.html`).
 
